@@ -1,0 +1,205 @@
+/*Configuração de fontes do site (ROBOTO 400 e 900)*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,900&display=swap');
+
+/*Configuração das cores*/
+
+:root {
+    --cor1: #c9b065;
+    --cor2: blue
+    --cor3: #7d6a32;
+    --cor4: #ffffff;
+}
+
+/*Configuração dos navegadores*/
+
+*{
+    font-family: 'roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*Formatação do body*/
+
+body {
+    background-color: #7d6a32;
+}
+
+header{
+    max-width: 95%;
+    height: auto;
+    margin: 0 auto;
+    background-color: var(--cor1);
+    text-align: center;
+    border-radius: 0px 0px 12px 12px;
+    padding-top: 1rem;
+    box-shadow: 0px 4px 3px #000;
+}
+
+
+nav li{
+    display: inline-block;
+    margin: 2rem 1rem;
+
+}
+
+nav a{
+    color: var(--cor4);
+}
+
+/*hove é a cor que fica ao passar o mouse*/
+
+nav a:hover{
+    color: var(--cor2);
+    border-bottom: 4px solid;
+}
+
+/*Configurações do main*/
+
+main{
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+/*Configurações do banner*/
+
+.banner{
+    width: 100%;    
+    text-align: center;
+    margin: 0 auto;
+}
+
+.cycle-slideshow img{
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+/*------------Formatação  dos Cards-----------*/
+
+.cards{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--cor1);
+    width: 100%;
+    height: 60vh;
+}
+
+.produtos h2{
+    font-weight: 700;
+    color: var(--cor3);
+    letter-spacing: 2px;
+    padding-top: 2%;
+}
+
+.produtos p{
+    font-size: 1.2rem;
+    color: blue;
+    font-weight: 700;
+    padding-top: 3%;
+}
+
+.produtos a{
+    color: #ffffff;
+    font-size: 0.8rem;
+
+}
+
+/*-----Contrução do banner promocional*/
+
+.promocao img{
+    width: 100%;
+    height: 60vh;
+    
+}
+
+/*------Formatação dos pagamentos-----*/
+
+.pagamento{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+    margin: 3% auto 0.2%;
+}
+
+.pag {
+    padding: 2%;
+
+}
+
+.pag h3{
+    color: #ffffff;
+}
+
+.pag p{
+    color: #c9b065;
+    font-size: 0.rem;
+}
+
+.pag img{
+    padding-top: 4%;
+}
+
+/*Construção das promoções do dia*/
+
+.tit_dia{
+    font-size: 2rem;
+    text-align: center;
+    font-weight: bold;
+    background-color: #ffffff;
+    color: blue;
+    margin: 2% auto;
+    padding-top: 2%;
+}
+
+.dia{
+    display: flex;
+    justify-content: space-around;
+    background-color: #ffffff;
+    margin: -3% auto;
+}
+
+.prod_dia{
+    margin: 3%;
+
+}
+
+.prod_dia h3{
+    font-weight: bold;
+}
+
+/*-------Contrução do Rodapé----------*/
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #c9b065;
+    color: #ffffff; 
+    padding-top: 2%; 
+    text-align: center;
+
+}
+
+.rodape a{
+    font-size: 0.8rem;
+    color: #ffffff;
+
+}
+
+.rodape img{
+    padding: 5%;    
+
+}
+
+
+
